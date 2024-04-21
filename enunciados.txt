@@ -1,0 +1,50 @@
+Questão 3: Torneio de Tênis.
+Fonte: Olimpíada Brasileira de Informática 2021. Modalidade Programação Nível Júnior. [2,5 pontos]
+A prefeitura contratou um novo professor para ensinar as crianças do bairro a jogar tênis na quadra 
+de tênis do parque municipal. O professor convidou todas as crianças do bairro interessadas em
+aprender a jogar tênis. Ao final do primeiro mês de aulas e treinamentos foi organizado um torneio
+em que cada participante disputou exatamente seis jogos. O professor vai usar o desempenho no
+torneio para separar as crianças em três grupos, de forma a ter grupos de treino em que os participantes
+tenham habilidades mais ou menos iguais, usando o seguinte critério:
+• participantes que venceram 5 ou 6 jogos serão colocados no Grupo 1;
+• participantes que venceram 3 ou 4 jogos serão colocados no Grupo 2;
+• participantes que venceram 1 ou 2 jogos serão colocados no Grupo 3;
+• participantes que não venceram nenhum jogo não serão convidados a continuar com os treinamentos.
+Dada uma lista com o resultado dos jogos de um participante, escreva um programa para determinar
+em qual grupo ele será colocado.
+
+Entrada
+A entrada consiste de seis linhas, cada linha indicando o resultado de um jogo do participante.
+Cada linha contém um único caractere: V se o participante venceu o jogo, ou P se o jogador perdeu
+o jogo. Não há empates nos jogos.
+
+Saída
+Seu programa deve produzir uma única linha na saída, contendo um único inteiro, identificando o
+grupo em que o participante será colocado. Se o participante não for colocado em nenhum dos três
+grupos seu programa deve imprimir o valor -1.
+
+Questão 4: Aviões de Papel.
+Fonte: Olimpíada Brasileira de Informática 2009. Modalidade Programação Nível Júnior. [2,5 pontos]
+Para descontrair os alunos após as provas da OBI, a Diretora da escola organizou um campeonato de aviões de papel.Cada aluno participante receberá uma certa quantidade de folhas de um
+papel especial para fazer os seus modelos de aviões. A quantidade de folhas que cada aluno deverá
+receber ainda não foi determinada: ela será decidida pelos juízes do campeonato.
+A diretora convidou, para atuarem como juízes, engenheiros da Embraer, uma das mais bem sucedidas empresas brasileiras, que vende aviões com tecnologia brasileira no mundo todo. O campeonato
+está programado para come¸car logo após a prova da OBI, mas os juízes ainda não chegaram à
+escola. A diretora está aflita, pois comprou uma boa quantidade de folhas de papel especial, mas
+não sabe se a quantidade comprada vai ser suficiente.
+Considere, por exemplo, que a Diretora comprou 100 folhas de papel especial, e que há 33 competidores. Se os juízes decidirem que cada competidor tem direito a três folhas de papel, a quantidade
+comprada pela diretora é suficiente. Mas se os juízes decidirem que cada competidor tem direito a
+quatro folhas, a quantidade comprada pela diretora não seria suficiente.
+Você deve escrever um programa que, dados o número de competidores, o número de folhas de
+papel especial compradas pela Diretora e o número de folhas que cada competidor deve receber,
+determine se o número de folhas comprado pela Diretora é suficiente.
+Entrada
+A entrada é composta de uma linha contendo três números inteiros C, P e F representando respectivamente o número de competidores, a quantidade de folhas de papel especial compradas pela
+Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
+Saída
+Seu programa deve imprimir na saída padrão uma ´unica linha contendo o caractere ‘S ” se a quantidade de folhas compradas pela Diretora é suficiente, ou o caractere ‘N ” caso contrário. Note que
+os caracteres devem ser letras mai´usculas.
+Restrições
+• 1 ≤ C ≤ 1000
+• 1 ≤ P ≤ 1000
+• 1 ≤ F ≤ 1000
