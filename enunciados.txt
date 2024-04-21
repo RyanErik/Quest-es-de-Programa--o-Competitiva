@@ -38,9 +38,11 @@ quatro folhas, a quantidade comprada pela diretora não seria suficiente.
 Você deve escrever um programa que, dados o número de competidores, o número de folhas de
 papel especial compradas pela Diretora e o número de folhas que cada competidor deve receber,
 determine se o número de folhas comprado pela Diretora é suficiente.
+
 Entrada
 A entrada é composta de uma linha contendo três números inteiros C, P e F representando respectivamente o número de competidores, a quantidade de folhas de papel especial compradas pela
 Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
+
 Saída
 Seu programa deve imprimir na saída padrão uma ´unica linha contendo o caractere ‘S ” se a quantidade de folhas compradas pela Diretora é suficiente, ou o caractere ‘N ” caso contrário. Note que
 os caracteres devem ser letras mai´usculas.
