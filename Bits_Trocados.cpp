@@ -5,41 +5,39 @@ using namespace std;
 
 int main()
 {
-    vector<int> V;
-    int x, I = 0, J = 0, K = 0, L = 0;
-    for(;;){
-        cin >> x;
-        V.push_back(x);
-        if(x == 0) break;
-    } 
-    for(int i = 0; i < V.size(); i++){
-        while(V[i] !=0){
-            if(V[i] >= 50){
+    int x = 1, I = 0, J = 0, K = 0, L = 0, V;
+    cin >> V;
+    while(V != 0){
+        while(V !=0){
+            if(V >= 50){
                 I++;
-                V[i] -= 50;
+                V -= 50;
             }
-            else if(V[i] >= 10){
+            else if(V >= 10){
                 J++;
-                V[i] -= 10;
+                V -= 10;
             }
-            else if(V[i] >= 5){
+            else if(V >= 5){
                 K++;
-                V[i] -= 5;
+                V -= 5;
             }
             else{
                 L++;
-                V[i] -= 1;
+                V -= 1;
             }
         }
-        if(i != V.size() - 1){
-            cout << "Teste " << i + 1 << endl;
-            cout << I << " " << J << " " << K << " " << L << endl;
-            I = 0;
-            J = 0;
-            K = 0;
-            L = 0;
-        }
+        cout << "Teste " << x << endl;
+        cout << I << " " << J << " " << K << " " << L << endl;
+        I = 0;
+        J = 0;
+        K = 0;
+        L = 0;
+        x++;
+        cin >> V;
     }
+        
+        
+    
 
     return 0;
 }

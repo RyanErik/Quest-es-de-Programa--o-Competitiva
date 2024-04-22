@@ -92,6 +92,8 @@ Esta saída corresponde ao exemplo da entrada mostrada no Exemplo de Entrada. Re
 O≤V10000 (V=0 apenas para indicar o fim da entrada).
 Olimpíada Brasileira de Informática – OBI2015 (SIMULADO ARI DE SÁ CAVALCANTE)
 9
+
+
 5. METEOROS (OLIMPÍADA BRASILEIRA DE INFORMÁTICA)
 Nome do arquivo fonte: meteoros.c, meteoros.cpp, meteoros.pas, meteoros.java, meteoros.py
 Em noites sem nuvens, pode-se muitas vezes observar pontos brilhantes no céu que se deslocam
